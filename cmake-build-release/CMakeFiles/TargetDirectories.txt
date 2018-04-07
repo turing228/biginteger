@@ -1,0 +1,3 @@
+/home/jesus/cpp-course-master/bigint/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/jesus/cpp-course-master/bigint/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/jesus/cpp-course-master/bigint/cmake-build-release/CMakeFiles/big_integer_testing.dir
