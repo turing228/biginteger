@@ -648,6 +648,9 @@ namespace
         T b = extract_random_element(v);
 
         T ab = a * b;
+        if (ab/ a != b){
+            ab=ab;
+        }
         ASSERT_TRUE(ab / a == b);
         ASSERT_TRUE(ab / b == a);
 

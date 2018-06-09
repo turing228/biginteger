@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/16/bin/cmake/bin/cmake
+CMAKE_COMMAND = /snap/clion/22/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/16/bin/cmake/bin/cmake -E remove -f
+RM = /snap/clion/22/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,15 +60,15 @@ include CMakeFiles/big_integer_testing.dir/flags.make
 CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o: CMakeFiles/big_integer_testing.dir/flags.make
 CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o: ../big_integer_testing.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jesus/cpp-course-master/bigint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o -c /home/jesus/cpp-course-master/bigint/big_integer_testing.cpp
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o -c /home/jesus/cpp-course-master/bigint/big_integer_testing.cpp
 
 CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/big_integer_testing.cpp > CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/big_integer_testing.cpp > CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.i
 
 CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/big_integer_testing.cpp -o CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/big_integer_testing.cpp -o CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.s
 
 CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o.provides.build: CMa
 CMakeFiles/big_integer_testing.dir/big_integer.cpp.o: CMakeFiles/big_integer_testing.dir/flags.make
 CMakeFiles/big_integer_testing.dir/big_integer.cpp.o: ../big_integer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jesus/cpp-course-master/bigint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/big_integer_testing.dir/big_integer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/big_integer.cpp.o -c /home/jesus/cpp-course-master/bigint/big_integer.cpp
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/big_integer.cpp.o -c /home/jesus/cpp-course-master/bigint/big_integer.cpp
 
 CMakeFiles/big_integer_testing.dir/big_integer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_testing.dir/big_integer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/big_integer.cpp > CMakeFiles/big_integer_testing.dir/big_integer.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/big_integer.cpp > CMakeFiles/big_integer_testing.dir/big_integer.cpp.i
 
 CMakeFiles/big_integer_testing.dir/big_integer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_testing.dir/big_integer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/big_integer.cpp -o CMakeFiles/big_integer_testing.dir/big_integer.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/big_integer.cpp -o CMakeFiles/big_integer_testing.dir/big_integer.cpp.s
 
 CMakeFiles/big_integer_testing.dir/big_integer.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/big_integer_testing.dir/big_integer.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o: CMakeFiles/big_integer_testing.dir/flags.make
 CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o: ../gtest/gtest-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jesus/cpp-course-master/bigint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o -c /home/jesus/cpp-course-master/bigint/gtest/gtest-all.cc
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o -c /home/jesus/cpp-course-master/bigint/gtest/gtest-all.cc
 
 CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/gtest/gtest-all.cc > CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/gtest/gtest-all.cc > CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.i
 
 CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/gtest/gtest-all.cc -o CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/gtest/gtest-all.cc -o CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.s
 
 CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o.provides.build: CMakeFil
 CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o: CMakeFiles/big_integer_testing.dir/flags.make
 CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o: ../gtest/gtest_main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jesus/cpp-course-master/bigint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o -c /home/jesus/cpp-course-master/bigint/gtest/gtest_main.cc
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o -c /home/jesus/cpp-course-master/bigint/gtest/gtest_main.cc
 
 CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/gtest/gtest_main.cc > CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jesus/cpp-course-master/bigint/gtest/gtest_main.cc > CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.i
 
 CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/gtest/gtest_main.cc -o CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jesus/cpp-course-master/bigint/gtest/gtest_main.cc -o CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.s
 
 CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o.requires:
 

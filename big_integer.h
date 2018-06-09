@@ -6,10 +6,11 @@
 #include <iosfwd>
 #include <vector>
 
-using std::vector;
+//using std::vector;
 
 struct big_integer
 {
+    bool sign;
     big_integer();
     big_integer(big_integer const& other);
     big_integer(int a);
@@ -75,18 +76,35 @@ struct big_integer
     big_integer abs() const;
     bool is_negative() const;
     void correct();
-    big_integer(bool new_sign, vector<unsigned int> const &new_data);
+    big_integer(bool new_sign, std::vector<unsigned int> const &new_data);
     //size_t length() const;
-private:
-    bool sign;
-    vector<unsigned int> data;
+    unsigned int digitReal(size_t ind) const;
+
+//mpz_t mpz;
+
+    void push_max();
+
+    std::vector<unsigned int> data;
 
     size_t length() const;
-    unsigned int digit(size_t ind) const;
-    unsigned int digitReal(size_t ind) const;
+
     void make_fit();
+
+    unsigned int digit(size_t ind) const;
+
+    //bool sign;
+
+    void my_push(unsigned int t);
+
+    //void my_move();
+    big_integer my_move();
+
+private:
+
     void corret();
-    //mpz_t mpz;
+
+    big_integer div_nice(const big_integer &a, const big_integer &b);
+
 };
 /*
 big_integer operator+(big_integer const& a, big_integer const& b);
