@@ -933,8 +933,8 @@ void difference(big_integer &r, big_integer &dq, size_t k) {
     //big_integer r2 = r - make_longer(k + dqL, dq);
 
     if (rL != 0) {
-        int borrow = 0;
-        size_t rL = r.length();
+//        int borrow = 0;
+//        size_t rL = r.length();
         //size_t dqL = dq.length();
         long long int sum = castUnsignedLongLong(r.digitReal(k)) + 1ULL + castUnsignedLongLong(~dq.digitReal(0));
         long long int carry = sum >> BASE;
